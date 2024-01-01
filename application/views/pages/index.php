@@ -6,16 +6,16 @@
                 <section class="slider">
                     <div id="sliderindex5">
                         <div>
-                            <img src="<?= base_url('/assets/theme/') ?>img/banner1.jpg" alt="" title="" />
+                            <img src="<?= base_url('/assets/theme/') ?>img/baner1.png" alt="" title="" />
                         </div>
                         <div>
-                            <img src="<?= base_url('/assets/theme/') ?>img/banner2.jpg"  alt="" title=""/>
+                            <img src="<?= base_url('/assets/theme/') ?>img/baner2.png"  alt="" title=""/>
                         </div>
                         <div>
-                            <img src="<?= base_url('/assets/theme/') ?>img/banner1.jpg" alt="" title="" />
+                            <img src="<?= base_url('/assets/theme/') ?>img/baner1.png" alt="" title="" />
                         </div>
                         <div>
-                            <img src="<?= base_url('/assets/theme/') ?>img/banner2.jpg" alt="" title="" />
+                            <img src="<?= base_url('/assets/theme/') ?>img/baner2.png"  alt="" title=""/>
                         </div>
                     </div>
                 </section>

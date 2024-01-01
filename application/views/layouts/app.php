@@ -26,7 +26,7 @@
     <div class="container">
       <div class="row">
         <div class="span12">
-          <a href="<?=base_url()?>" class="logo pull-left"><img src="<?=base_url('/assets/theme/')?>img/logo.png" alt="SimpleOne" title="SimpleOne"></a>
+          <a href="<?=base_url()?>" class="logo pull-left"><img src="<?=base_url('/assets/theme/')?>img/logoGlob.png" alt="GlobalComputer" title="GlobalComputer"></a>
           <!-- Top Nav Start -->
           <div class="pull-left">
             <div class="navbar" id="topnav">
@@ -106,7 +106,7 @@
   <section class="copyrightbottom">
     <div class="container">
       <div class="row">
-        <div class="span6"> Create By Miswanto (UMP). | Repost by <a href='https://shopee.co.id/kokoqory' title='Kokoqory' target='_blank'>Kokoqory</a>
+        <div class="span6"> Create By QQ</a>
          </div>
         <div class="span6 textright"> Copyright @ <?=date('Y')?> </div>
       </div>
