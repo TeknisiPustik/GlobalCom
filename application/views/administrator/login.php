@@ -42,8 +42,6 @@
 									<i class="fa fa-sign-in"></i>&nbsp; LOGIN
 								</button>
 							</fieldset>
-							<br><center><p>Repost by <a href='https://shopee.co.id/kokoqory' title='Kokoqory' target='_blank'>Kokoqory</a></p></center>
-							
 						</form>
 					</div>
 				</div>

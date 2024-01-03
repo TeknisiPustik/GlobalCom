@@ -9,7 +9,7 @@
 			<div class="col-lg-12">
 				<h1 class="page-header">
                     <i class="fa fa-dashboard"></i>
-                    Selamat Datang <?=$this->session->userdata('administrator')['nama']?>!!! | Repost by <a href='https://shopee.co.id/kokoqory' title='Kokoqory' target='_blank'>Kokoqory</a>
+                    Selamat Datang <?=$this->session->userdata('administrator')['nama']?>!!!</a>
 					
                 </h1>
 			</div>

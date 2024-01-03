@@ -106,7 +106,7 @@
   <section class="copyrightbottom">
     <div class="container">
       <div class="row">
-        <div class="span6"> Create By QQ</a>
+        <div class="span6"> Create By Kiuw-Kiuw || Yusuf Ridho</a>
          </div>
         <div class="span6 textright"> Copyright @ <?=date('Y')?> </div>
       </div>

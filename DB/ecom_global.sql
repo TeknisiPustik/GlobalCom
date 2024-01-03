@@ -189,7 +189,7 @@ CREATE TABLE `produk` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id_produk`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 /*Data for the table `produk` */
 
@@ -198,7 +198,10 @@ insert  into `produk`(`id_produk`,`katalog_id`,`nama_produk`,`permalink`,`stok`,
 (15,10,'ASUS Zenbook','asus-zenbook',1,11000000,0,'asus_zenbook_1704272950.jpg','Intel® Core™ i5-13500H Processor 2.6 GHz (18MB Cache, up to 4.7 GHz, 12 cores, 16 Threads)\r\nIntel® Iris Xe Graphics\r\n16GB LPDDR5 on board\r\n1TB M.2 NVMe™ PCIe® 4.0 Performance SSD\r\n14.0-inch, 2.8K (2880 x 1800) OLED 16:10 aspect ratio, 0.2ms response time, 90Hz refresh rate, 400nits, 550nits HDR peak brightness, 100% DCI-P3 color gamut, 1,000,000:1, VESA CERTIFIED Display HDR True Black 500, 1.07 billion colors, PANTONE Validated, Glossy display, 70% less harmful blue light, TÜV Rheinland-certified, SGS Eye Care Display, Touch screen, (Screen-to-body ratio)90%, With stylus support\r\n','2024-01-03 10:09:10','2024-01-03 10:09:10'),
 (16,10,'AXIOO MyBook','axioo-mybook',10,6000000,5,'axioo_mybook_1704273746.jpg','Processor : Intel Celeron N4020 ( 1.10 GHz; 4M Cache; up to 2.80 GHz )\r\nDisplay : 13.3? IPS 2.5K (2560×1600)\r\nMemory : RAM 4GB DDR4\r\nStorage : 256GB SSD\r\nGraphics : Integrated Intel UHD Graphics\r\nWireless : WiFi + BT4.0\r\nHiRes Webcam\r\nOperating System : Windows 10 Pro','2024-01-03 16:37:49','2024-01-03 10:22:26'),
 (17,13,'Brodher Printer','brodher-printer',9,4000000,0,'brodher_printer_1704274007.jpg','A4, Letter, A5, A5(Long Edge), A6, Executive, Legal, Folio, Mexico Legal, India Folio\r\nUp to 250 sheets of 80 gsm plain paper\r\nLaser Printer\r\n356 mm x 360 mm x 183 mm','2024-01-03 16:42:03','2024-01-03 10:26:47'),
-(18,13,'Brother MFC-T4500DW','brother-mfc-t4500dw',10,9000000,0,'brother_mfc-t4500dw_1704274293.jpg','Solusi Cetak Efisien - Printer A3 Multifungsi dengan Sistem Refill Ink Tank. Konektivitas Wireless & Ethernet, Cetak Warna Bolak-Balik Otomatis, ADF - Scan/Copy/Fax.  Didesain secara profesional untuk Mencetak Secara Cepat, Hemat Biaya, dan tetap Memiliki Kualitas Cetak Foto yang Brilian dengan Botol Tinta Ultra High Yield. Wi-Fi Direct, Mobile & USB Print.','2024-01-03 16:37:57','2024-01-03 10:33:08');
+(18,13,'Brother MFC-T4500DW','brother-mfc-t4500dw',10,9000000,0,'brother_mfc-t4500dw_1704274293.jpg','Solusi Cetak Efisien - Printer A3 Multifungsi dengan Sistem Refill Ink Tank. Konektivitas Wireless & Ethernet, Cetak Warna Bolak-Balik Otomatis, ADF - Scan/Copy/Fax.  Didesain secara profesional untuk Mencetak Secara Cepat, Hemat Biaya, dan tetap Memiliki Kualitas Cetak Foto yang Brilian dengan Botol Tinta Ultra High Yield. Wi-Fi Direct, Mobile & USB Print.','2024-01-03 16:37:57','2024-01-03 10:33:08'),
+(19,12,'Mouse Rexsus Rx-108','mouse-rexsus-rx-108',100,130000,0,'mouse_rexsus_rx-108_1704299055.jpg','','2024-01-03 17:24:15','2024-01-03 17:24:15'),
+(20,12,'Cliptec','cliptec',100,100000,0,'cliptec_1704299159.jpg','Wirelles Mouse','2024-01-03 17:25:59','2024-01-03 17:25:59'),
+(21,12,'Speaker Selena','speaker-selena',100,90000,0,'speaker_selena_1704299266.jpg','','2024-01-03 17:27:46','2024-01-03 17:27:46');
 
 /*Table structure for table `users` */
 

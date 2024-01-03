@@ -83,11 +83,7 @@
 				</a>
 			</li>
 
-			<li <?php if ($navigation_active == "pengaturan") { echo 'class="active"'; } ?>>
-				<a href="<?=base_url('/administrator/pengaturan.html')?>">
-					<i class="fa fa-cogs"></i>&nbsp; PENGATURAN
-				</a>
-			</li>
+			<!-- baris pengaturan -->
 			
 			<li role="presentation" class="divider"></li>
 			<li <?php if ($navigation_active == "password") { echo 'class="active"'; } ?>>
